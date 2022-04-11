@@ -1,0 +1,67 @@
+#header{
+    background-size: cover;
+    color:white;
+    background-color: #194A7C;
+    position:relative !important;
+}
+
+#header h1{
+    font-size: 300%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+}
+
+label {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+button {
+    width: 100%;
+}
+
+#current-weather {
+    padding-left: 15px;
+}
+
+.weather-card{
+    width: 9rem;
+    background-color: #4C5E70;
+    color: white;
+    text-align: center;
+}
+
+.uv-favorable{
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+}
+
+.uv-moderate{
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+}
+
+.uv-severe{
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+}
+
+@media only screen and (max-width: 992px) {
+    #search-city{
+        width:100%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #fiveDayForecastUl{
+        justify-content: center;
+    }
+}
